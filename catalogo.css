@@ -43,7 +43,7 @@ header h1{
 
 /* BANNER GERAL */
 .sectionBanner{
-    min-height: 80vh;
+    min-height: 95vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -65,7 +65,7 @@ header h1{
 }
 
 .banner-dez{
-    background-image: src="./logotipomandamentos.jpg";
+    background-image: url("./logotipomandamentos.jpg");
 }
 
 .banner-genesis{
