@@ -189,4 +189,129 @@ header h1{
 .butaoVoltar:hover{
     background-color: white;
     color: black;
-                                }
+}
+
+/* PÁGINA ADICIONAR PERFIL - ESTILO NETFLIX */
+.tela-perfil{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+.tela-perfil h1{
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tela-perfil p{
+    color: #808080;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.avatar-escolha{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.avatar-escolha label{
+    cursor: pointer;
+}
+
+.avatar-escolha input{
+    display: none;
+}
+
+.avatar-escolha img{
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 3px solid transparent;
+}
+
+.avatar-escolha input:checked + img{
+    border-color: white;
+    transform: scale(1.08);
+}
+
+.input-nome{
+    width: 100%;
+    padding: 14px;
+    background: #333;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+.input-nome:focus{
+    background: #4d4d4d;
+    border: 1px solid white;
+}
+
+.check-infantil{
+    color: #b3b3b3;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.botoes-perfil{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.btn-salvar{
+    background: white;
+    color: black;
+    padding: 12px 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-cancelar{
+    background: transparent;
+    color: #808080;
+    border: 1px solid #808080;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn-salvar:hover{
+    background: #cc1400;
+    color: white;
+}
+
+.btn-cancelar:hover{
+    color: white;
+    border-color: white;
+}
