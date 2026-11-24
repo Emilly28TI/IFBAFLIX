@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adicionar Perfil - IFBAFLIX</title>
+<link rel="stylesheet" href="catalogo.css">
+</head>
+<body>
+
+<header>
+  <h1>IFBAFLIX</h1>
+</header>
+
+<div class="tela-perfil">
+  <h1>Adicionar perfil</h1>
+  <p>Adicione um perfil para outra pessoa que assiste ao IFBAFLIX.</p>
+
+  <form class="form-perfil" action="catalogo.html">
+    <div class="avatar-escolha">
+      <label>
+        <input type="radio" name="avatar" checked>
+        <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0t0.jpg" alt="Avatar 1">
+      </label>
+      <label>
+        <input type="radio" name="avatar">
+        <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-2fg93fun6ox7gw2a.jpg" alt="Avatar 2">
+      </label>
+      <label>
+        <input type="radio" name="avatar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Avatar 3">
+      </label>
+    </div>
+
+    <input type="text" class="input-nome" placeholder="Nome do perfil" required maxlength="20">
+
+    <label class="check-infantil">
+      <input type="checkbox"> Perfil infantil?
+    </label>
+
+    <div class="botoes-perfil">
+      <button type="submit" class="btn-salvar">Continuar</button>
+      <a href="index.html" class="btn-cancelar">Cancelar</a>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
