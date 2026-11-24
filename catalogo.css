@@ -69,7 +69,7 @@ header h1{
 }
 
 .banner-reis{
-    background-image: url(./logotiporeis.jpg);
+    background-image: url("./logotiporeis.jpg");
 }
 
 .banner-genesis{
