@@ -72,9 +72,8 @@ header h1{
     background-image: url(./logotiporeis.jpg);
 }
 
-/* BANNER A TERRA PROMETIDA - PAGINA 3 */
-.terraPrometida{
-    background-image: url("./terra.jpg");
+.banner-genesis{
+    background-image: url("./logotipogenesis.jpg");
 }
 
 .organizadorButton1{
