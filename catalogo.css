@@ -65,7 +65,7 @@ header h1{
 }
 
 .banner-dez{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Moses_with_the_Ten_Commandments.jpg/800px-Moses_with_the_Ten_Commandments.jpg);
+    background-image: src="./logotipomandamentos.jpg";
 }
 
 .banner-genesis{
