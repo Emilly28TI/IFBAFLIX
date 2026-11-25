@@ -69,13 +69,16 @@ header h1{
 }
 
 .banner-reis{
-    background-image: url("./logotiporeis.jpg");
+    background-image: url("./banerreis.jpg");
 }
 
 .banner-genesis{
     background-image: url("./logoogenesis.jpg");
 }
 
+.banner-jesus{
+    background-image: url("./jjbaner.jpg")
+}
 .organizadorButton1{
     display: flex;
     gap: 10px;
